@@ -410,7 +410,7 @@ footer{background-color:white;
   .span2{padding-top: 3%;white-space: normal;font-size:1.2em;}
   
     /*pagina libros*/
-  .contenedor-imagenes{width:100%;display:grid; grid-template-columns: 1fr 1fr 1fr;
+  .contenedor-imagenes{width:90%;display:grid; grid-template-columns: 1fr 1fr 1fr;
     }
     .imagen-con-texto .sinopsis{white-space: normal ;width: 75%;}
     .contenedor-imagenes{margin-left: 5%;margin-bottom: 5%;}
