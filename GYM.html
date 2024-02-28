@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header con Menú</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body class="body">
+    <header class="header-background6">
+        <div class="menu-icon-container">
+        <div id="menuIcon" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          
+          <div id="menu" class="menu">
+            <a href="INICIO.html">INICIO</a>
+            <a href="#" onclick="toggleSubmenu()">CATEGORÍAS</a>
+            <div id="submenu" class="submenu">
+              <a href="#libros">Libros</a>
+              <a href="#hogar">Hogar</a>
+              <a href="#electronica">Electrónica</a>
+              <a href="#jardineria">Jardinería</a>
+              <a href="#moda">Moda</a>
+              <a href="#cosmetica">Cosmética</a>
+          </div>
+
+            <a href="#blogsDestacados">BLOGS DESTACADOS</a>
+          </div>
+        </div>
+    </header>
+    <main class="fondo">
+        <div class="contenedor-imagenes">
+            <div class="imagen-con-texto">
+                <img src="IMG/pesas.jpg" alt="Imagen 1" id="buenas5">
+                <p>Set de mancuernos</p>
+                <p class="sinopsis">Juego de mancuernas ajustable, tendrás una solución completa para el entrenamiento en casa. Con el sistema de ajuste conveniente de estas mancuernas puedes cambiar el peso de ellas al instante para adaptarte a diferentes necesidades de entrenamiento.</p>
+                <a href="https://amzn.to/3IdReKk" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/bicicleta.jpg" alt="Imagen 1" id="buenas5">
+                <p>Bicicleta estática</p>
+                <p class="sinopsis">Lleva tu entrenamiento cardiovascular al siguiente nivel con esta bicicleta estática de alta calidad. Con su resistencia ajustable, podrás adaptar el nivel de dificultad según tus objetivos. Su diseño ergonómico garantiza una posición cómoda durante todo tu entrenamiento.</p>
+                <a href="https://amzn.to/3wzHkQM" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/cinta.jpg" alt="Imagen 1" id="buenas5">
+                <p>Cinta de correr</p>
+                <p class="sinopsis">Diseñada para ofrecerte una experiencia de carrera cómoda y eficiente en la comodidad de tu hogar, esta cinta de correr te permite quemar calorías, mejorar tu resistencia y fortalecer tus músculos con cada paso que das. Prepárate para superar tus límites y alcanzar tus objetivos.</p>
+                <a href="https://amzn.to/3wAV91h" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/esterilla.jpg" alt="Imagen 1" id="buenas5">
+                <p>Esterilla yoga / fitness</p>
+                <p class="sinopsis">Diseñada con materiales de alta calidad, esta esterilla ofrece una superficie antideslizante que te brinda estabilidad y agarre durante tus prácticas y su amortiguación suave pero resistente proporciona el soporte necesario para tus articulaciones.¡Prepárate para elevar tus sesiones de ejercicio!</p>
+                <a href="https://amzn.to/49vKSSC" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/bandas.jpg" alt="Imagen 1" id="buenas5">
+                <p>Bandas elasticas musculación</p>
+                <p class="sinopsis">Diseñadas para proporcionarte un entrenamiento versátil y efectivo en cualquier lugar, son el complemento perfecto para tus rutinas de ejercicios. Fabricadas con materiales duraderos y de calidad, ofrecen una resistencia progresiva que te permite ajustar el nivel de desafío según tus objetivos de fuerza.</p>
+                <a href="https://amzn.to/3TiKjGg" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/rodillo.jpg" alt="Imagen 1" id="buenas5">
+                <p>Rueda para abdominales</p>
+                <p class="sinopsis">Diseñada para ofrecerte un entrenamiento abdominal intenso y efectivo, esta rueda es el equipo perfecto para fortalecer tu núcleo y mejorar tu resistencia. Con su diseño ergonómico y agarre antideslizante, te proporciona estabilidad y control durante cada repetición, minimizando el riesgo de lesiones.</p>
+                <a href="https://amzn.to/4bRgWSy" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/pelota.jpg" alt="Imagen 1" id="buenas5">
+                <p>Pelota de pilates</p>
+                <p class="sinopsis">Esta pelota es el complemento perfecto para tus rutinas de Pilates, yoga, estiramientos y entrenamiento de fuerza. Fabricada con material duradero y resistente, proporciona un soporte estable y cómodo para una variedad de ejercicios. se infla en cuestión de minutos gracias al inflador que trae incluido.</p>
+                <a href="https://amzn.to/3uR9s1c" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/tobilleras.jpg" alt="Imagen 1" id="buenas5">
+                <p>Pesas para tobillos</p>
+                <p class="sinopsis">Diseñadas para proporcionarte un desafío adicional en tus rutinas de ejercicio, estas pesas son el complemento perfecto para fortalecer y tonificar tus piernas, glúteos y abdomen. Fabricadas en neopreno de alta calidad y provistas de acolchado para mayor comodidad. (0,5 kg, 1 kg y 1,5 kg)</p>
+                <a href="https://amzn.to/3TecYfh" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/mueble.jpg" alt="Imagen 1" id="buenas5">
+                <p>Estante almacenamiento</p>
+                <p class="sinopsis">Diseñado para mantener tus pesas, mancuernas, barras y otros equipos de fitness organizados y al alcance de la mano, este estante es la solución perfecta para mantener tu gimnasio en casa ordenado y eficiente. Con múltiples niveles y compartimentos, ofrece un amplio espacio de almacenamiento.</p>
+                <a href="https://amzn.to/3SNzD0I" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/boxeo.jpg" alt="Imagen 1" id="buenas5">
+                <p>Kit de saco de boxeo</p>
+                <p class="sinopsis">Este conjunto incluye todo lo que necesitas para empezar a entrenar como un verdadero boxeador. Incluye 1 saco de boxeo sin relleno de 4 pies, 1 x guantes de boxeo, 1 x cadena de acero, 1 x mosquetón de conexión, 1 x percha de saco de boxeo y 1 par de fundas protectoras de tobillo </p>
+                <a href="https://amzn.to/3uFJ9et" class="btn">Comprar en Amazon</a>
+            </div>
+        </div>
+    </main>
+        <hr class="hr">
+        <footer>
+          <div class="legal">
+            <a href="#"><p>Sobre nosotros</p></a>
+            <a href ="#"><p>Derechos de autor y propiedad intelectual.</p></a>
+          </div>
+      
+        <div class="imagen">
+          <a href="https://www.pinterest.es/claudiaruizvazquez" target="_blank">
+            <img src="IMG/pinterest.png" alt="logotipo Pinterest" id="pinterest">
+          </a>
+        </div>
+      
+        <div class="derechos">
+          <p>© 2024 Claudia Ruiz. Todos los derechos reservados.</p>
+          <a href="https://www.flaticon.es/iconos-gratis/marcas-y-logotipos" title="marcas y logotipos iconos">Marcas y logotipos iconos creados por Freepik - Flaticon</a>
+        </div>
+        </footer>
+         <script src="stylesheet/script.js"></script>
+      </body>
+    </html>

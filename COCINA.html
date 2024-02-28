@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header con Menú</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body class="body">
+    <header class="header-background5">
+        <div class="menu-icon-container">
+        <div id="menuIcon" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          
+          <div id="menu" class="menu">
+            <a href="INICIO.html">INICIO</a>
+            <a href="#" onclick="toggleSubmenu()">CATEGORÍAS</a>
+            <div id="submenu" class="submenu">
+              <a href="#libros">Libros</a>
+              <a href="#hogar">Hogar</a>
+              <a href="#electronica">Electrónica</a>
+              <a href="#jardineria">Jardinería</a>
+              <a href="#moda">Moda</a>
+              <a href="#cosmetica">Cosmética</a>
+          </div>
+
+            <a href="#blogsDestacados">BLOGS DESTACADOS</a>
+          </div>
+        </div>
+    </header>
+    <main class="fondo">
+        <div class="contenedor-imagenes">
+            <div class="imagen-con-texto">
+                <img src="IMG/MENAJE.jpg" alt="Imagen 1" id="buenas5">
+                <p>Menjae de cocina</p>
+                <p class="sinopsis">Equipa tu cocina con este completo juego de sartenes y ollas. Con un revestimiento antiadherente de primera calidad, nuestras sartenes garantizan una cocción uniforme y fácil limpieza.</p>
+                <a href="https://amzn.to/48wqoHV" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/tostadora.jpg" alt="Imagen 1" id="buenas5">
+                <p>Tostadora</p>
+                <p class="sinopsis">Disfruta de deliciosas tostadas cada mañana con esta elegante tostadora. Con un diseño moderno y compacto que se adapta a cualquier cocina, esta tostadora combina estilo y funcionalidad a la perfección.</p>
+                <a href="https://amzn.to/43aRVhn" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/airfryer.jpg" alt="Imagen 1" id="buenas5">
+                <p>Air fryer</p>
+                <p class="sinopsis">Transforma tu forma de cocina, con tecnología de circulación de aire caliente de alta velocidad, esta freidora de aire te permite cocinar de una manera más saludable, utilizando hasta un 85% menos de grasa.</p>
+                <a href="https://amzn.to/3SXclpn" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/batidora2.jpg" alt="Imagen 1" id="buenas5">
+                <p>Batidora de vaso</p>
+                <p class="sinopsis">Potencia y versatilidad se unen en esta batidora de vaso, diseñada para simplificar tus tareas. Los 2 frascos de 570 ml, con tapas de viaje y contornos de silicona, ofrecen una solución práctica para llevar sus preparaciones allá donde vaya.</p>
+                <a href="https://amzn.to/48zU9rk" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/baldosas.jpg" alt="Imagen 1" id="buenas5">
+                <p>Azulejos autoadhesivos</p>
+                <p class="sinopsis">Renueva tu cocina con facilidad y estilo con estos azulejos autoadhesivos. Diseñados para brindar una solución práctica y estética, ofrecen la apariencia de azulejos tradicionales sin la necesidad de una instalación complicada.</p>
+                <a href="https://amzn.to/48r3SQQ" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/grifo2.jpg" alt="Imagen 1" id="buenas5">
+                <p>Grifo cocina</p>
+                <p class="sinopsis"> Optimiza tu espacio de cocina con este grifo de alta calidad. Este grifo cuenta con un diseño retráctil único que aumenta la flexibilidad del grifo y viene con 4 modos de rociado, agua de burbujas, rociado de ducha y agua de racimo. Optimiza tu espacio y mejora su estética.</p>
+                <a href="https://amzn.to/3uOgT9g" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/almacenaje.jpg" alt="Imagen 1" id="buenas5">
+                <p>Botes almacenaje</p>
+                <p class="sinopsis">Organiza tu despensa con estilo utilizando estos botes de almacenaje para cocina. Estos elegantes contenedores no solo mantienen tus ingredientes frescos y organizados, sino que también añaden un toque de sofisticación a tu espacio culinario.</p>
+                <a href="https://amzn.to/3wv7pjZ" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/campana.jpg" alt="Imagen 1" id="buenas5">
+                <p>Campana extractora</p>
+                <p class="sinopsis">Disfruta de un ambiente limpio y fresco en tu cocina con esta campana extractora. Diseñada para eliminar eficazmente el humo, los olores y la grasa mientras cocinas, esta campana es el complemento perfecto para cualquier cocina moderna. </p>
+                <a href="https://amzn.to/3SVMeyN" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/cuchillos.jpg" alt="Imagen 1" id="buenas5">
+                <p>Juego de cuchillos cocina</p>
+                <p class="sinopsis">Prepara tus recetas con precisión y estilo con este juego de cuchillos de cocina. Este completo conjunto ofrece una selección de cuchillos de alta calidad diseñados para satisfacer todas tus necesidades culinarias (9 piezas). </p>
+                <a href="https://amzn.to/3OUIoVF" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/taburetes.jpg" alt="Imagen 1" id="buenas5">
+                <p>Taburetes bar cocina</p>
+                <p class="sinopsis">Maximiza el espacio y el estilo en tu barra de cocina a la vez que aportas color con estos taburetes elegantes y funcionales. Fabricados con materiales de alta calidad y un diseño moderno, estos taburetes ofrecen comodidad y durabilidad. </p>
+                <a href="https://amzn.to/42WylVD" class="btn">Comprar en Amazon</a>
+            </div>
+        </div>
+        </main>
+            <hr>
+            <footer>
+              <div class="legal">
+                <a href="#"><p>Sobre nosotros</p></a>
+                <a href ="#"><p>Derechos de autor y propiedad intelectual.</p></a>
+              </div>
+          
+            <div class="imagen">
+              <a href="https://www.pinterest.es/claudiaruizvazquez" target="_blank">
+                <img src="IMG/pinterest.png" alt="logotipo Pinterest" id="pinterest">
+              </a>
+            </div>
+          
+            <div class="derechos">
+              <p>© 2024 Claudia Ruiz. Todos los derechos reservados.</p>
+              <a href="https://www.flaticon.es/iconos-gratis/marcas-y-logotipos" title="marcas y logotipos iconos">Marcas y logotipos iconos creados por Freepik - Flaticon</a>
+            </div>
+            </footer>
+             <script src="stylesheet/script.js"></script>
+          </body>
+        </html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header con Menú</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body class="body">
+    <header class="header-background4">
+        <div class="menu-icon-container">
+        <div id="menuIcon" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          
+          <div id="menu" class="menu">
+            <a href="INICIO.html">INICIO</a>
+            <a href="#" onclick="toggleSubmenu()">CATEGORÍAS</a>
+            <div id="submenu" class="submenu">
+              <a href="#libros">Libros</a>
+              <a href="#hogar">Hogar</a>
+              <a href="#electronica">Electrónica</a>
+              <a href="#jardineria">Jardinería</a>
+              <a href="#moda">Moda</a>
+              <a href="#cosmetica">Cosmética</a>
+          </div>
+
+            <a href="#blogsDestacados">BLOGS DESTACADOS</a>
+          </div>
+        </div>
+    </header>
+    <main class="fondo">
+        <div class="contenedor-imagenes">
+            <div class="imagen-con-texto">
+                <img src="IMG/papel.jpg" alt="Imagen 1" id="buenas5">
+                <p>Papel adhesivo antihumedad</p>
+                <p class="sinopsis">Dale un toque de frescura y estilo a tus paredes en minutos. Resistente a la humedad y fácil de limpiar, este papel es la solución perfecta para transformar tu baño sin complicaciones. </p>
+                <a href="https://amzn.to/3TeaTQM" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/duhca.jpg" alt="Imagen 1" id="buenas5">
+                <p>Columna de ducha</p>
+                <p class="sinopsis"> Fabricada con materiales de alta calidad y un diseño elegante, esta columna no solo mejora tu rutina diaria, sino que también añade un toque de sofisticación a tu espacio de baño.</p>
+                <a href="https://amzn.to/48Cw5UJ" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/toallero.jpg" alt="Imagen 1" id="buenas5">
+                <p>Toallero para baño</p>
+                <p class="sinopsis">Optimiza tu espacio de baño con este elegante toallero. Fabricado con materiales duraderos y de alta calidad, ofrece una solución práctica para colgar tus toallas de baño de forma organizada y accesible. </p>
+                <a href="https://amzn.to/4bPkBAh" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/grifo.jpg" alt="Imagen 1" id="buenas5">
+                <p>Grifo para baño</p>
+                <p class="sinopsis">Con un diseño elegante y contemporáneo, este grifo ofrece un rendimiento excepcional. Fabricado con materiales de alta calidad y acabados resistentes al desgaste, garantiza durabilidad y fiabilidad.  </p>
+                <a href="https://amzn.to/3SXrExY" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/alfombra.jpg" alt="Imagen 1" id="buenas5">
+                <p>Alfombrilla para baño</p>
+                <p class="sinopsis">Fabricada con materiales suaves y absorbentes, esta alfombrilla ofrece una experiencia de paso confortable después de la ducha o el baño. Su diseño antideslizante proporciona una base segura en superficies húmedas. </p>
+                <a href="https://amzn.to/3TbC3rs" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/espejo.jpg" alt="Imagen 1" id="buenas5">
+                <p>Espejo para baño</p>
+                <p class="sinopsis">Este espejo es el complemento perfecto para cualquier baño. Su diseño moderno y minimalista se integra con cualquier decoración, mientras que su construcción duradera garantiza su resistencia a la humedad y el desgaste diario. </p>
+                <a href="https://amzn.to/49Te1Hf" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/JABONERAÇ.jpg" alt="Imagen 1" id="buenas5">
+                <p>Jabonera para baño</p>
+                <p class="sinopsis">Mejora la organización y el estilo de tu baño con nuestra jabonera de diseño elegante. Fabricada con materiales de alta calidad y acabados resistentes a la humedad, proporciona una solución práctica y duradera para mantener tu jabón siempre a mano.</p>
+                <a href="https://amzn.to/3SM2ceY" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/jarron.jpg" alt="Imagen 1" id="buenas5">
+                <p>Juego de 2 jarrones</p>
+                <p class="sinopsis">Realza la belleza de tu baño con estos jarrones de diseño exquisito. Estos jarrones de porcelana fabricados a mano con hueco circular son perfectos para añadir un toque de sofisticación a tu baño ya que complementan una amplia gama de estilos de decoración.</p>
+                <a href="https://amzn.to/49l3RPH" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/plantas.jpg" alt="Imagen 1" id="buenas5">
+                <p>Plantas decorativas</p>
+                <p class="sinopsis">Refresca tu baño con un toque de naturaleza gracias a estas plantas decorativas, añaden una sensación de serenidad y frescura a tu oasis de baño. Sus hojas exuberantes y colores vibrantes añaden un toque de vida, transformando tu baño en un refugio relajante.</p>
+                <a href="https://amzn.to/3SXspqO" class="btn">Comprar en Amazon</a>
+            </div>
+            <div class="imagen-con-texto">
+                <img src="IMG/organizador.jpg" alt="Imagen 1" id="buenas5">
+                <p>Cesta de ducha</p>
+                <p class="sinopsis">Organiza tus productos de baño con comodidad. Diseñada para adaptarse a cualquier tipo de ducha, esta cesta ofrece un espacio elegante para almacenar tus productos de cuidado personal. Fabricada con materiales acero inoxidable, garantiza durabilidad y facilidad de limpieza.</p>
+                <a href="https://amzn.to/48yum35" class="btn">Comprar en Amazon</a>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+      <div class="legal">
+        <a href="#"><p>Sobre nosotros</p></a>
+        <a href ="#"><p>Derechos de autor y propiedad intelectual.</p></a>
+      </div>
+  
+    <div class="imagen">
+      <a href="https://www.pinterest.es/claudiaruizvazquez" target="_blank">
+        <img src="IMG/pinterest.png" alt="logotipo Pinterest" id="pinterest">
+      </a>
+    </div>
+  
+    <div class="derechos">
+      <p>© 2024 Claudia Ruiz. Todos los derechos reservados.</p>
+      <a href="https://www.flaticon.es/iconos-gratis/marcas-y-logotipos" title="marcas y logotipos iconos">Marcas y logotipos iconos creados por Freepik - Flaticon</a>
+    </div>
+    </footer>
+     <script src="stylesheet/script.js"></script>
+  </body>
+</html>
