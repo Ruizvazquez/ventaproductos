@@ -428,7 +428,4 @@ footer{background-color:white;
   
 }
 
-@media (min-width: 768px) {
-  #buenas5{width:50%;}
-  .sinopsis{width:75%;}
-}
+
