@@ -428,10 +428,9 @@ footer{background-color:white;
 
 
   /*pagina libros*/
-  .contenedor-imagenes{width:90%;display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px;
+  .contenedor-imagenes{width:90%;display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px;margin-left: 5%;
     }
     .imagen-con-texto .sinopsis{white-space: normal ;width: 75%;}
-    .contenedor-imagenes{margin-left: 5%;margin-right:5%;}
     .imagen-con-texto3 p{
       padding-top: 9%; width:75%;
     }
