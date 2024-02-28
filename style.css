@@ -409,6 +409,23 @@ footer{background-color:white;
   .span{padding-top: 3%;white-space: normal;}
   .span2{padding-top: 3%;white-space: normal;}
   
+    /*pagina libros*/
+  .contenedor-imagenes{width:100%;display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px;
+    }
+    .imagen-con-texto .sinopsis{white-space: normal ;width: 75%;}
+    .contenedor-imagenes{margin-left: 5%;margin-bottom: 5%;}
+    .imagen-con-texto3 p{
+      padding-top: 9%; width:75%;
+    }
+    .imagen-con-texto3 .sinopsis{
+      padding-top: 2%; width:75%;white-space: normal ;
+    }
+    #buenas{width: 40%;}
+    #buenas1{width: 40%;}
+    html{overflow-x: hidden;}
+}
+
+  
 }
 
 /* Media queries para ordenadores */
