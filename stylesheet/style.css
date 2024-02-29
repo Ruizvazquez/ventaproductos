@@ -384,7 +384,7 @@ footer{background-color:white;
   height: 30vh;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .horizontal-image {
       flex-direction: row;
       flex-wrap: wrap;
