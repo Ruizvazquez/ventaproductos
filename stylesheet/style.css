@@ -452,17 +452,16 @@ footer{background-color:white;
 }
 
 /* Media queries para ordenadores */
-@media (48em <= min-width <= 1024px){
-  .container a, .horizontal-image a {
-      width: calc(33.333% - 12px); /* Ajusta el ancho para ordenadores */
-  }
-
-  .horizontal-image {
-      flex-direction: row;
-      justify-content: space-between;
-  }
-
-  #horizontal {
-      height: auto; /* Ajuste para que la imagen mantenga su proporción */
-  }
+@media (min-width: 768px) {
+  #buenas5{width:50%;}
+  .sinopsis{width:75%;}
+   .header-background2 {
+      background-image: url('../IMG/fondolibros.png');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      height: 40vh;
+      width:100%;
+    
 }
+
