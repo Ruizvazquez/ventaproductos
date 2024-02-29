@@ -432,11 +432,26 @@ footer{background-color:white;
       height: 30vh;
       width:120%;
     }
+  .header-background3 {
+      background-image: url('../IMG/fondolibros.png');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      height: 30vh;
+      width:120%;
+    }
 }
 @media (min-width: 768px) {
   #buenas5{width:50%;}
   .sinopsis{width:75%;}
-}
+.header-background2 {
+      background-image: url('../IMG/fondolibros.png');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      height: 30vh;
+      width:120%;
+    }
   
 }
 
