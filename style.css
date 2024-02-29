@@ -430,7 +430,7 @@ footer{background-color:white;
       background-position: center;
       position: relative;
       height: 30vh;
-      width:100%;
+      width:75%;
     }
 }
 @media (min-width: 768px) {
