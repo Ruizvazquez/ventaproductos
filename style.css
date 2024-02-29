@@ -413,6 +413,7 @@ footer{background-color:white;
   .contenedor-imagenes{width:100%;display:grid; grid-template-columns: 1fr 1fr 1fr;
     }
     .imagen-con-texto .sinopsis{white-space: normal ;width: 75%;}
+    .imagen-con-texto2 .sinopsis{white-space: normal ;width: 75%;}
     .contenedor-imagenes{margin-left: 5%;margin-bottom: 5%;}
     .imagen-con-texto3 p{
       padding-top: 9%; width:75%;
