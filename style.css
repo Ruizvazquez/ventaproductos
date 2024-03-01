@@ -130,7 +130,6 @@
     height:50%;
     text-align: center;
     font-family: 'andika_new_basicbold';
-    font-size: 0.7em;
   }
   .image-caption4{
     position: absolute;
@@ -144,12 +143,11 @@
     height:50%;
     text-align: center;
     font-family: 'andika_new_basicbold';
-    font-size: 0.9em;
   }
 
-  .span{font-family: 'andika_new_basicregular';font-size: 0.7em;text-align: left;padding: 8px 2%;}
-  .span2{font-family: 'andika_new_basicregular';font-size: 0.7em;text-align: left;padding:30px 2%;}
-  .span3{font-family: 'andika_new_basicregular';font-size: 0.7em;text-align: left;padding:30px 2%;}
+  .span{font-family: 'andika_new_basicregular';font-size: 0.9em;text-align: left;padding: 8px 2%;}
+  .span2{font-family: 'andika_new_basicregular';font-size: 0.9em;text-align: left;padding:30px 2%;}
+  .span3{font-family: 'andika_new_basicregular';font-size: 0.9em;text-align: left;padding:30px 2%;}
 
   
   .image-caption2 {position: absolute;
